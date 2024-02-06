@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em html5</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplismente aumente e diminua o tamanho do seu navegador.</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagen flexível">
+    </picture>
+
+    <h1>Produzindo áudio</h1>
+    <p>Vamos aprender a reproduzir áudios e HTML5.</p>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/Walk Through the Park - TrackTribe.mp3" type="audio/mpeg">
+        <source src="midia/Walk Through the Park - TrackTribe.mp3" type="audio/ogg">
+        <source src="midia/Walk Through the Park - TrackTribe.mp3" type="audio/wav">
+    </audio>
+    <p>infeliz mente seu navegador não consegue reproduzir o áudio. <a href="midia/Walk Through the Park - TrackTribe.mp3">clique aqui pra baixar o arquivo MP3</a></p>
+    <!--compativel com (MP3-WAV-OGG)-->
+</body>
+</html>
