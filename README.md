@@ -5,4 +5,4 @@
 
  <a href="https://muriloofreire.github.io/html_css/exercicios/ex001/">Executar exercicio 001</a>
 
- 
+<a href="file:///C:/Users/muril/Documents/estudos/GitHub/html_css/exercicios/index.html"> executar fifa 23</a>
